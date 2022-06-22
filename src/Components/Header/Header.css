@@ -1,0 +1,35 @@
+.header {
+  background-color: var(--color-dark-gray);
+  width: 100%;
+  padding: 16px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 185px;
+}
+
+.contact {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  color: var(--white);
+  padding: 14px;
+  min-width: 138px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+@media (max-width: 1039px) {
+  .header {
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .contact {
+    display: none;
+  }
+}

@@ -17,7 +17,6 @@
   -moz-text-size-adjust: 100%;
   width: 100%;
   min-width: 320px;
-  max-width: 1440px;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -26,12 +25,31 @@
   box-sizing: border-box;
   --black: #000;
   --white: #fff;
+  --color-dark-gray: #28293E;
+  --color-beige: #FDF0E9;
   /*--color-bcg-pink: #f3c1f8;*/
   /*--color-bcg-light-gray: #f2f2f2;*/
   /*--color-bcg-gray: #f5f5f5;*/
   /*--color-bcg-dark-gray: #e8e8e8;*/
   /*--color-text-gray: #a0a0a0;*/
   /*--color-invalid-input-red: #ff4062;*/
+}
+
+.background {
+  width: 100%;
+}
+
+.background_color_gray {
+  background-color: var(--color-dark-gray);
+}
+
+.background_color_beige {
+  background-color: var(--color-beige);
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .link-hover {
