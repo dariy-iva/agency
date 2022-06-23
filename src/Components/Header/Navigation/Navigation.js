@@ -3,10 +3,10 @@ import './Navigation.css';
 
 export default function Navigation() {
   const navLinks = [
-    {text: 'About', path: '/about',},
-    {text: 'Services', path: '/services',},
-    {text: 'Pricing', path: '/pricing',},
-    {text: 'Blog', path: '/blog',},
+    {text: 'About', path: '/agency/about',},
+    {text: 'Services', path: '/agency/services',},
+    {text: 'Pricing', path: '/agency/pricing',},
+    {text: 'Blog', path: '/agency/blog',},
   ];
 
   return (
