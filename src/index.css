@@ -29,12 +29,9 @@
   --color-beige: #FDF0E9;
   --color-brown: #391400;
   --color-green: #4FE24A;
-  /*--color-bcg-pink: #f3c1f8;*/
-  /*--color-bcg-light-gray: #f2f2f2;*/
-  /*--color-bcg-gray: #f5f5f5;*/
-  /*--color-bcg-dark-gray: #e8e8e8;*/
-  /*--color-text-gray: #a0a0a0;*/
-  /*--color-invalid-input-red: #ff4062;*/
+  --color-green-text: #16CD53;
+  --color-dark-beige: #f3d1bf;
+  --color-orange: #ef6d58;
 }
 
 .background {
@@ -60,4 +57,10 @@
 
 .link-hover:hover {
   opacity: .6;
+}
+
+@media (max-width: 1280px) {
+  .wrapper {
+    padding: 0 23px;
+  }
 }

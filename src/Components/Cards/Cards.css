@@ -9,4 +9,31 @@
   flex-wrap: wrap;
   gap: 32px 30px;
   justify-content: center;
+  list-style-type: none;
+}
+
+.cards__loader {
+  margin: 80px auto 0;
+  padding: 15px 46px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-brown);
+  cursor: pointer;
+  background-color: var(--white);
+  border: none;
+  box-shadow: 0 3px 9px rgba(57, 20, 0, .1);
+}
+
+@media (max-width: 1039px) {
+  .cards {
+    padding: 32px 0 224px;
+  }
+
+  .cards__loader {
+    margin-top: 48px;
+  }
 }
